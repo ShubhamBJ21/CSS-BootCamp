@@ -1,0 +1,195 @@
+/* responsive social media website */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* small screen */
+@media(max-width:990px){
+    .container{
+        margin: 20px auto;
+    }
+    .feed{
+        border: 1px solid lightgray;
+        padding: 8px;
+        border-radius: 14px;
+        margin-bottom: 28px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    .sidebar{
+        text-align: center;
+    }
+    .profile{
+        display: flex;
+        gap: 7px;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+    .user{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .name{
+        margin: 0;
+    }
+    .user-name{
+        margin: 0;
+        color: rgb(80, 80, 80);
+        font-size: 14px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+       
+        margin: 20px auto;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin-top: 4px;
+        height: 34px;
+    }
+    .btn{
+        background-color: #fff;
+        border: 1px solid lightgray;
+        border-radius: 12px;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    .story-container{
+        width: 100%;
+        margin-top: 60px;
+        display: flex;
+        gap: 8px;
+        overflow: scroll;
+    }
+    .story{
+        height: 70px;
+        border-radius: 50%;
+    }
+    .user-story{
+        text-align: center;
+    }
+    .story-name{
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    .app{
+        display: flex;
+        justify-content: center;
+        gap:8px;
+    }
+    .app img{
+        height: 40px;
+    }
+    .mt-0{
+        margin-top: 0;
+    }
+    
+}
+
+
+
+
+/* big screen */
+@media(min-width: 990px){
+    .container{
+        width: 990px;
+        margin: 50px auto;
+        display: flex;
+        gap: 40px;
+    }
+    .feeds{
+        width: 590px;
+    }
+    .feed{
+        border: 1px solid lightgray;
+        padding: 8px;
+        border-radius: 14px;
+        margin-bottom: 28px;
+    }
+    .feed-img{
+        width: 100%;
+        border-radius: 14px;
+    }
+    .sidebar{
+        width: 400px;
+    }
+    .profile{
+        display: flex;
+        gap: 7px;
+        margin-bottom: 24px;
+        align-items: center;
+    }
+    .user{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .name{
+        margin: 0;
+    }
+    .user-name{
+        margin: 0;
+        color: rgb(80, 80, 80);
+        font-size: 14px;
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar{
+        width: 990px;
+        margin: 20px auto;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        margin-top: 4px;
+        height: 34px;
+    }
+    .btn{
+        background-color: #fff;
+        border: 1px solid lightgray;
+        border-radius: 12px;
+        padding: 15px 30px;
+        font-size: 16px;
+    }
+    .story-container{
+        width: 990px;
+        margin: 20px auto;
+        display: flex;
+        gap: 8px;
+    }
+    .story{
+        height: 70px;
+        border-radius: 50%;
+    }
+    .user-story{
+        text-align: center;
+    }
+    .story-name{
+        margin-top: 4px;
+        font-size: 14px;
+    }
+    .app{
+        display: flex;
+        gap:8px;
+    }
+    .app img{
+        height: 40px;
+    }
+    .mt-0{
+        margin-top: 0;
+    }
+    
+}
